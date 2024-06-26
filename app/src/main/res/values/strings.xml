@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">camilo_zavala_HERPM13051_s5</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="vendedores">Vendedores</string>
+    <string name="audio">Audio</string>
+    <string name="pause">Stop</string>
+    <string name="play">Play</string>
+    <string name="reproducir">Play</string>
+    <string name="pausar">Stop</string>
+    <string name="tomar_foto">Tomar Foto</string>
+    <string name="Menu">Menu (pasar Animación)</string>
+    <string name="vendedoresMENU">Vendedores</string>
+    <string name="Camara">Cámara</string>
+    <string name="mostrar_foto">Mostrar Foto</string>
+    <string name="Grafico">Gráfico</string>
+    <string name="ventas_del_vendedor">Ventas Del Vendedor</string>
+    <string name="rea_del_vendedor">Área del Vendedor</string>
+    <string name="nombre_del_vendedor">Nombre del Vendedor</string>
+</resources>
