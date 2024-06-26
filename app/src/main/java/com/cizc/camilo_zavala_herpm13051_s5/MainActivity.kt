@@ -7,6 +7,9 @@ import android.os.Handler
 import android.widget.Button
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
+import com.microsoft.appcenter.AppCenter
+import com.microsoft.appcenter.analytics.Analytics
+import com.microsoft.appcenter.crashes.Crashes
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +21,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Inicializar AppCenter
+        AppCenter.start(
+            application, "4ad2f15e-35f7-4514-ad26-0dcbc3a58d17",
+            Analytics::class.java, Crashes::class.java
+        )
         // Encuentra el VideoView por ID
         val videoView = findViewById<VideoView>(R.id.videoView)
 
