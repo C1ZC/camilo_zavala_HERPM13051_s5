@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         // Inicializar AppCenter
         AppCenter.start(
-            application, "4ad2f15e-35f7-4514-ad26-0dcbc3a58d17",
+            application, "d1a4be6e-57ca-41a5-a778-f8856a7c7993",
             Analytics::class.java, Crashes::class.java
         )
         // Encuentra el VideoView por ID
